@@ -1,0 +1,997 @@
+body{
+	width: 0 auto;
+	background-color: #f2f2f2;
+	margin: 0;
+	box-sizing: border-box;
+}
+header {
+	width: auto;
+	height: auto;
+}
+.desctop {
+	
+	width: 69rem;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: 4rem;
+
+}
+.desctop ul{
+	
+	margin: auto;
+	
+
+}
+.list-item{
+	
+	display: inline-block;
+	list-style: none;
+	justify-items: space-between;
+
+}
+.list-item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #33323D;
+	font-family: 'Public Sans', serif;
+	padding-left: 2.8rem;
+	font-size: 12px;
+	line-height: auto;
+	letter-spacing: 2px;
+
+}
+.list-item a:hover {
+	color: #5FB4A2;
+}
+li .active {
+   color: #5FB4A2;
+}
+.mobile{
+	display: none;
+}
+main {
+
+	width: 69rem;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+.banner{
+	position: relative;
+
+}
+.banner-photo img{
+	width: 100%;
+	height: auto;
+	/*height: 600px;*/
+	margin-top: 4rem;
+	
+}
+.banner-caption{
+	width: 28rem;
+	height: 22rem;
+	position: absolute;
+	top: 245px;
+	
+	background-color: white;
+}
+.banner-caption p{
+	font-family: 'Ibara Real Nova', serif;
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: -0.45px;
+	text-align: left;
+	color: #33323D;
+	margin-bottom: 20px;
+}
+.btn-caption{
+	width: 200px;
+	height: 48px;
+	color: white;
+	background-color: #203A4C;
+	border: none;
+	top: 0;
+	padding-right: 2rem;
+
+}
+.btn-caption a{
+	font-family:'Public Sans', serif ;
+	font-size: 12px;
+	line-height: auto;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+.btn-caption img{
+	width: 1rem;
+	height: 1rem;
+	margin-right: 2rem;
+
+}
+.btn-caption:hover{
+	background-color: #5FB4A2;
+
+}
+#about{
+	width: auto;
+	height: 600px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 100px;
+	gap: 100px;
+}
+.aboutMe{
+	width: 22rem;
+}
+.aboutMe h3{
+	font-family:'Ibara Real Nova', serif;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: left;
+	color: #33323D;
+	line-height: 42px;
+}
+.aboutMe p{
+	font-family: 'Public Sans', serif ;
+	font-size: 1rem;
+	line-height: 30px;
+	text-align: left;
+	color: #33323D;
+}
+.aboutMe hr{
+	width: 22rem;
+	height: 1px;
+	color: #979797;
+	margin: 0;
+}
+.btn-aboutMe{
+	width: 12.6rem;
+	height: 3rem;
+	border-color: #33323D; 
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.btn-aboutMe a{
+	font-family:'Public Sans', serif ;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #33323D;
+}
+.btn-aboutMe:hover{
+	background-color: #33323D; 
+	
+}
+.btn-aboutMe:hover a{
+	color: white;
+}
+.contactMe{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	
+}
+.h3-contactMe{
+	width: 350px;
+
+}
+.h3-contactMe h3{
+	font-family: 'Ibara Real Nova', serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+.hr-contactMe{
+	width: 543px;
+	
+    padding-right: 2rem;
+    color: #979797;
+}
+.hr-contactMe hr{
+	margin-top: 5rem;
+}
+
+.btn-contactMe{
+	margin-top: 4rem;
+	width: 10rem;
+	height: 3rem;
+	border-color: #33323D;
+}
+.btn-contactMe a{
+	font-family:'Public Sans', serif ;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #33323D;
+}
+
+.btn-contactMe:hover{
+	background-color: #33323D; 
+	
+}
+.btn-contactMe:hover a{
+	color: white;
+}
+
+footer {
+	width: 100%;
+	background-color: #33323D;
+	height: 5rem;
+}
+.footer-nav{
+	width: 69rem;
+	margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.footer-logo{
+	margin-top: 1rem;
+
+}
+.footer-menu {
+	margin-top: 1rem;
+}
+.footer-menu img{
+	color: white;
+}
+
+.footer-menu li a{
+	color: white;
+	text-decoration: none;
+
+}
+.footer-icons{
+	margin-left: 32rem;
+	margin-top: 1rem;
+
+}
+
+.projects{
+	margin-top: 5rem;
+	display: grid;
+	width: 69rem;
+	margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4fr;
+    
+    margin-bottom: 5rem;
+
+}
+.project-photo{
+	height: 500px;
+	width: 540px;
+	padding-bottom: 5rem;
+	
+}
+
+.project-desctop{
+	transition: 1s;
+}
+.project-desctop:hover{
+	transform: scale(1.2);
+}
+.project-info , .project-info-left{
+	height: 500px;
+	width: 350px;
+	padding-left: 5rem;
+	padding-bottom: 5rem;
+}
+.project-info p, .project-info-left p{
+	font-family:'Public Sans', serif ;
+	font-size: 1rem;
+	line-height: 30px;
+	text-align: left;
+	color: #33323D;
+}
+.project-info h3 , .project-info-left h3{
+	font-family: 'Ibara Real Nova', serif;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 42px;
+}
+.project-btn{
+	margin-top: 4rem;
+	width: 10rem;
+	height: 3rem;
+	border-color: #33323D;
+}
+.project-btn a{
+	font-family:'Public Sans', serif ;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #33323D;
+}
+
+.project-btn:hover{
+	background-color: #33323D; 
+	
+}
+.project-btn:hover a{
+	color: white;
+}
+.banner-portfolio{
+	
+	height: 500px;
+	margin-top: 5rem;
+}
+.info-portfolio{
+	margin-top: 5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 5rem;
+}
+
+.portfolio-description{
+	width: 350px;
+	height: 498px;
+}
+.portfolio-description hr{
+	color: #979797;
+}
+.portfolio-description h3{
+	font-family: 'Ibara Real Nova', serif;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 42px;
+	letter-spacing: 0.36px;
+	text-align: left;
+	color: #33323D;
+
+}
+.portfolio-description p{
+	font-family:'Public Sans', serif ;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: left;
+	color: #33323D;
+}
+.portfolio-description h5{
+	font-family:'Public Sans', serif ;
+	font-size: 16px;
+	font-weight: bold;
+	color: #5FB4A2;
+}
+.info-portfolio-btn{
+
+	width: 10rem;
+	height: 3rem;
+	border-color: #33323D;
+	margin-bottom: 3rem;
+}
+.info-portfolio-btn a{
+	font-family:'Public Sans', serif ;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #33323D;
+}
+
+.info-portfolio-btn:hover{
+	background-color: #33323D; 
+	
+}
+.info-portfolio-btn:hover a{
+	color: white;
+}
+.portfolio-caption{
+	font-family: 'Ibara Real Nova', serif;
+	
+	font-size: 32px;
+	line-height: 42px;
+	letter-spacing: 0.29px;
+	text-align: left;
+	color: #33323D;
+}
+.about-portfolio{
+	font-family:'Public Sans', serif ;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: left;
+	color: #33323D;
+
+}
+.img-portfolio img{
+	margin-bottom: 2rem;
+
+}
+.prev-next{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 132px;
+	margin-bottom: 5rem;
+	
+}
+
+
+.prev{
+	border-top: 1px solid #979797;
+	border-bottom: 1px solid #979797;
+	border-right: 1px solid #979797;
+}
+.next{
+	border-top: 1px solid #979797;
+	border-bottom: 1px solid #979797;
+}
+.btn-prev{
+	width: 1rem;
+	height: 1rem;
+}
+.btn-prev button{
+	border: none;
+}
+.btn-prev button  img{
+	margin-top: 3rem;
+}
+.prev-info{
+	display: inline-block;
+	margin-left: 3rem;
+	margin-top: 1rem;
+	
+}
+.prev-info-caption{
+	font-family: 'Ibara Real Nova', serif;
+	
+	font-size: 32px;
+	line-height: 36px;
+	letter-spacing: 0.29px;
+	text-align: left;
+	color: #33323D;
+	text-decoration: none;
+}
+.prev-project{
+	font-family:'Public Sans', serif ;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	color: #979797;
+	margin-right: 4rem;
+	text-decoration: none;
+}
+
+.btn-next{
+	width: 1rem;
+	height: 1rem;
+	float: right;
+}
+.btn-next button{
+	border: none;
+}
+.btn-next button  img{
+	margin-top: 3rem;
+}
+.next-info{
+	display: inline-block;
+	margin-left: 22rem;
+	margin-top: 2rem;
+	
+	
+}
+.next-info-caption{
+	font-family: 'Ibara Real Nova', serif;
+	
+	font-size: 32px;
+	line-height: 36px;
+	letter-spacing: 0.29px;
+	text-align: right;
+	color: #33323D;
+	text-decoration: none;
+}
+.next-project{
+	font-family:'Public Sans', serif ;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	color: #979797;
+	margin-right: 4rem;
+	text-decoration: none;
+}
+.next-info-bookmark{
+	width: 100px;
+	margin-left: 26rem;
+	margin-top: 2rem;
+}
+.next-info-bookmark .next-project{
+	margin-right: 0;
+}
+
+
+.btn-next-bookmark{
+	width: 1rem;
+	height: 1rem;
+	float: right;
+	margin-top: -45px;
+}
+.btn-next-bookmark button{
+	border: none;
+}
+.getTouch{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 2rem;
+
+}
+.getTouch-hr{
+	margin-top: 4rem;
+}
+
+.getTouch-caption{
+	width: 350px;
+	height: auto;
+	font-family: 'Ibara Real Nova', serif;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 42px;
+	letter-spacing: 0.36px;
+	text-align: left;
+	color: #33323D;
+
+}
+.getTouch-info p{
+	font-family:'Public Sans', serif ;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	color: #33323D;
+}
+.getTouch-icons{
+	margin-top: 2rem;
+}
+.getTouch-icons a{
+	margin-right: 1rem;
+}
+.contact{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 2rem;
+}
+.contactMe-caption{
+	font-family: 'Ibara Real Nova', serif;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 42px;
+	letter-spacing: 0.36px;
+	text-align: left;
+	color: #33323D;
+	width: 400px;
+
+}
+label{
+	font-family:'Public Sans', serif ;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: left;
+	color: #33323D;
+
+}
+#name{
+	width: 500px;
+	height: 48px;
+	background-color: #DBDBDB;
+	padding-left: 3rem;
+	border: 1px solid #DBDBDB;
+}
+#email{
+	width: 500px;
+	height: 48px;
+	background-color: #DBDBDB;
+	border: 1px solid #DBDBDB;
+	padding-left: 3rem;
+}
+input{
+	margin-bottom: 2rem;
+
+}
+input:active,input:focus,input:hover{
+	outline: 0;
+	outline-offset: 0;
+}
+
+#email:focus{
+	border: 2px solid green;
+}
+#name:focus{
+	border: 2px solid green;
+}
+#message:focus{
+	border: 2px solid green;
+}
+
+#message{
+	width: 500px;
+	height: 6rem;
+	background-color: #DBDBDB;
+	border: 1px solid #DBDBDB;
+	padding-left: 3rem;
+}
+.btn-submit{
+	width: 200px;
+	height: 48px;
+	background-color: #203A4C;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.img2{
+	display: none;
+}
+.img3{
+	display: none;
+}
+.project-tablet{
+	display: none;
+}
+.banner-portfolio-tablet{
+	display: none;
+}
+.bottom-tablet{
+	display: none;
+}
+.img-portfolio-tablet{
+    	display: none;
+}
+.contact{
+    	margin-bottom: 3rem;
+}
+
+
+.invalid {
+	border: 2px solid red;
+}
+.valid {
+	border: 2px solid green;
+}
+
+
+@media screen and (min-width:715px) and (max-width:1200px){
+	.desctop {
+		width: 43rem;
+		height: 2rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+
+	}
+	main {
+		width: 43rem;
+		margin-left: auto;
+        margin-right: auto;
+	
+	}
+
+	/*.banner-photo{
+		background-image: url("img/tablet/image-homepage-hero.jpg");
+		margin-top: 0;
+	}*/
+	.banner-caption{
+	width: 22rem;
+	height: 17rem;
+	top: 10rem;
+	margin-bottom: 2rem;
+    }
+    .banner-caption p{
+	font-family: 'Ibara Real Nova', serif;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 42px;
+	letter-spacing: 0.36px;
+	text-align: left;
+	color: #33323D;
+	margin-bottom: 1rem;
+	padding-bottom: 0;
+    }
+    .img1{
+    	display: none;
+    }
+    .img2{
+    	display: block;
+    }
+    .img3{
+    	display: none;
+    }
+    #about {
+    	gap: 50px;
+    }
+    .hr-contactMe{
+	   width: 7rem;
+    }
+    .footer{
+    	width: 100%;
+    	height: 80px;
+    }
+    .footer-nav{
+    	width: 43rem;
+    	margin-left: auto;
+        margin-right: auto;
+        display: flex;
+       justify-content: left;
+       align-items: center;
+    }
+    .footer-icons{
+    	margin-left: 8rem;
+
+    }
+    .projects{
+    	width: 43rem;
+    }
+    .project-desctop{
+    	display: none;
+    }
+    .project-tablet{
+    	display: block;
+    	margin-top: 70px;
+    }
+    .project-photo{
+    	width: 339px;
+    	height: 418px;
+    }
+    .project-info, .project-info-left{
+    	width: 281px;
+    	height: 418px;
+    }
+    .project-btn {
+    margin-top: 2rem;
+    }
+    .project-tablet{
+	transition: 1s;
+    }
+    .project-tablet:hover{
+	transform: scale(1.2);
+    }
+    .project-info-left {
+    	padding-left: 0;
+    }
+    .banner-portfolio-desctop{
+    	display: none;
+    }
+    .banner-portfolio-tablet{
+    	display: block;
+
+    }
+    .banner-portfolio{
+    	height: 310px;
+    	margin-top: 2rem;
+    }
+    .info-portfolio {
+	margin-top: 2rem;
+	display: inline-block;
+	margin-bottom: 2rem;
+    }
+    .portfolio-description{
+    	width: 43rem;
+    	position: relative;
+    	height: 248px;
+    }
+    
+    .portfolio-description h3{
+    	margin-top: 2rem;
+    	margin-bottom: 2rem;
+    }
+    .portfolio-description-tablet {
+    	display: grid;
+    	grid-template-columns: 1fr 1fr;
+    	
+    }
+    .portfolio-description-about{
+    	position: absolute;
+    	top: 100px;
+    }
+    .bottom-desctop{
+    	display: none;
+    }
+    .bottom-tablet{
+    	display: block;
+    	margin-top: 40px;
+    }
+    .next-info , .next-info-bookmark{
+    	margin-left: 0;
+    	padding-left: 150px;
+    }
+
+    .img-portfolio-desctop{
+    	display: none;
+    }
+    .img-portfolio-tablet{
+    	display: block;
+    }
+    .next-info-bookmark {
+    	padding-left: 200px;
+    }
+    .getTouch , .contact{
+    	display: inline-block;
+    	width: 100%;
+    }
+    #name, #mail, #message{
+    	width: 100%;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:714px) {
+
+	.desctop{
+		display: none;
+	}
+
+	.mobile{
+		display:  flex;
+		width: 20rem;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: auto;
+        margin-right: auto;
+		
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	
+
+	}
+	main {
+		width: 20rem;
+		margin-left: auto;
+        margin-right: auto;
+	
+	}
+	/*.banner-photo{
+		background-image: url("img/mobile/image-homepage-hero.jpg");
+		margin-top: 0;
+		background-repeat: no-repeat;
+		
+	}*/
+	/*.banner{
+		width: auto;
+		margin-right: 2rem;
+		margin-left: 2rem;
+		
+	}*/
+	#myDropdown{
+		margin-top: 2rem;
+	}
+
+	.banner-caption{
+		width: 20rem;
+		background-color: #F2F2F2;
+		position: static;
+
+	}
+	.img3{
+		display: block;
+	}
+	.img2{
+		display: none;
+	}
+	.img1{
+		display: none;
+	}
+	.aboutMe{
+		margin-top: 2rem;
+		width: 20rem;
+	}
+	.aboutMe hr{
+		width: 19rem;
+	}
+	#about{
+		display: inline-block;
+	}
+	.contactMe{
+		display: inline-block;
+		width: 20rem;
+	}
+	.hr-contactMe{
+		display: none;
+	}
+	footer{
+		
+		width: 23rem;
+		height: 21rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer-nav{
+		display: inline;
+
+	}
+
+	.footer-icons{
+		margin-left: auto;
+		text-align: center;
+		
+		
+	}
+	.footer-icons a{
+		margin-left: 1rem;
+	}
+	.footer-logo{
+		text-align: center;
+		padding-top: 3rem;
+		padding-bottom: 2rem;
+
+
+	}
+	
+	.footer-menu .list-item{
+		display: block;
+		text-align: center;
+	}
+	.footer-menu ul{
+		padding-left: 0;
+		margin: 0;
+	}
+	.list-item{
+		margin-bottom: 2rem;
+	}
+	.list-item a{
+		padding-left: 0;
+	}
+	.banner-photo img {
+		margin-top: 0;
+	}
+	.footer-menu{
+		margin-top: 0;
+	}
+
+
+
+
+   /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+	  
+    }
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      padding-top: 10px;
+      z-index: 1;
+      background-color: #33323D ;
+      width: 223px;
+      height: 186px;
+      right: 0;
+      top: 40px;
+
+    }
+
+/* Ссылки внутри выпадающего списка */
+    .dropdown-content a {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: 'Public Sans', serif;
+      text-align: center;
+      font-size: 12px;
+      padding-top: 2rem;
+      letter-spacing: 2px;
+      text-decoration: none;
+      display: block;
+      
+
+    }
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+   .dropdown-content a:hover {color: #5FB4A2;}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+   .show {display:block;}
+
+}
